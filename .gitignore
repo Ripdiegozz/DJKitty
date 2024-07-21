@@ -1,0 +1,9 @@
+# DIST AND MODULES
+/dist
+/node_modules
+
+# ENV FILES
+.env
+.env.local
+.env.development
+.env.test
