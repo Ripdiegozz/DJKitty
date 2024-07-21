@@ -1,2 +1,4 @@
-console.log("Hello, World!");
-console.log("Message emited from: ", __filename);
+import { build as buildServer } from "./infrastructure/bot";
+
+// Start the server
+buildServer();
